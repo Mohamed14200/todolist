@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Todo List</title>
+    <link rel="icon" href="/favicon.ico" sizes="any"><!-- Add a simple favicon -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- Optional: For Apple devices -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#3B82F6', // blue-500 (Tailwind's default blue-500)
+              secondary: '#10B981', // emerald-500 (Tailwind's default emerald-500)
+              light: '#F9FAFB', // gray-50
+              dark: '#1F2937', // gray-800
+              danger: '#EF4444', // red-500 (Tailwind's default red-500)
+            }
+          }
+        },
+        darkMode: 'media', // or 'class' if you want manual toggle
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-light dark:bg-dark transition-colors duration-300 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

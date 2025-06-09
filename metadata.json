@@ -1,0 +1,5 @@
+{
+  "name": "React Todo List",
+  "description": "A simple and elegant todo list application built with React, TypeScript, and Tailwind CSS. Manage your tasks efficiently with add, edit, delete, and filter functionalities. Your tasks are saved locally in your browser.",
+  "requestFramePermissions": []
+}
