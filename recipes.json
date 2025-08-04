@@ -357,7 +357,7 @@
     "cookTime": 10,
     "servings": 4,
     "difficulty": 2,
-    "category": "**أطباق رئيسية**",
+    "category": "أطباق رئيسية",
     "youtubeUrl": "https://www.youtube.com/watch?v=OPAAWfMkIac",
     "ingredients": [
         { "name": "بصل", "quantity": "1", "unit": "حبة" },
