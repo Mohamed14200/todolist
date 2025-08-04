@@ -300,6 +300,7 @@
     "difficulty": 2,
     "category": "أطباق رئيسية",
     "youtubeUrl": "https://www.youtube.com/watch?v=qTaitNafr6M"
+ "ingredients": [
         { "name": "باذنجان", "quantity": "2", "unit": "حبات كبيرة" },
         { "name": "ملح", "quantity": "حسب الرغبة", "unit": "(للبذنجان، وللدَرّسة، وللصلصة)" },
         { "name": "ثوم", "quantity": "كمية", "unit": "(فصوص كبيرة مفرومة للدَرّسة، ومبشورة للصلصة)" },
